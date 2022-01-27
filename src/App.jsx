@@ -1,47 +1,67 @@
 import { useState } from 'react'
-import './App.css'
-const App = () => {
+import s from './App.module.css'
+
+export default function App() {
   const [name, setName] = useState('')
-  const [number, setNumber] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
 
   const hendkeSubmit = (e) => {
     e.preventDefault()
-    console.log(e)
-    console.dir(e.target.value)
-    // reset()
+    console.log(name, email, message)
+    // console.log(e)
+    // console.dir(e.target.value)
+    reset()
   }
+
   const handleChange = (event) => {
-    console.log(event.target.value)
     const { name: inputName, value } = event.target
 
-    if (inputName === 'nickname') {
-      setNickname(value)
-    } else if (inputName === 'real_name') {
-      setReal_name(value)
-    } else if (inputName === 'origin_description') {
-      setOrigin_description(value)
-
+    if (inputName === 'name') {
+      setName(value)
+    } else if (inputName === 'email') {
+      setEmail(value)
+    } else if (inputName === 'message') {
+      setMessage(value)
+    }
   }
-
+  const reset = () => {
+    setName('')
+    setEmail('')
+    setMessage('')
+  }
   return (
     <div>
-      <h2>Reach out to us!</h2>
-      <form className="form" onSubmit={hendkeSubmit}>
+      <h2 className={s.title}>Reach out to us!</h2>
+      <form className={s.form} onSubmit={hendkeSubmit}>
         <input
+          className={s.inputName}
           type="text"
-          className="imput"
           onChange={handleChange}
-          // value={nickname}
-          name="nickname"
-          placeholder=" required"
-          required
+          value={name}
+          placeholder="Your name*"
+          name="name"
         />
-        <input type="text" className="imput" />
-        <input type="text" className="imput" />
-        <button type="submit">Submit</button>
+        <input
+          className={s.inputEmail}
+          type="text"
+          onChange={handleChange}
+          placeholder="Your e-mail*"
+          name="email"
+          value={email}
+        />
+        <input
+          className={s.inputMessage}
+          type="text"
+          onChange={handleChange}
+          name="message"
+          placeholder="Your message*"
+          value={message}
+        />
+        <button className={s.button} type="submit">
+          Submit
+        </button>
       </form>
     </div>
   )
 }
-
-export default App

@@ -1,0 +1,58 @@
+::placeholder {
+  color: #2d2d2d;
+}
+.title {
+  width: 563px;
+  height: 58px;
+  left: 147px;
+  top: 179px;
+
+  font-family: Apercu Arabic Pro;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.form {
+  display: grid;
+}
+
+.inputName,
+.inputEmail,
+.inputMessage {
+  padding-top: 31px;
+  padding-left: 46px;
+  width: 557px;
+  left: 150px;
+  top: 267px;
+
+  font-family: Apercu Arabic Pro;
+  font-weight: normal;
+  font-size: 18px;
+  color: #2d2d2d;
+
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.inputName,
+.inputEmail {
+  height: 93px;
+  margin-bottom: 8px;
+}
+
+.inputMessage {
+  height: 189px;
+}
+.button {
+  margin-top: 23px;
+  width: 218px;
+  height: 73px;
+  left: 150px;
+  top: 681px;
+  border: none;
+  cursor: pointer;
+  background: #fad34f;
+  border-radius: 500px;
+}
