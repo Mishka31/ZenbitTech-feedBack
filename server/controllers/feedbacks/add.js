@@ -1,4 +1,3 @@
-// const { Superhero } = require('../../model')
 const db = require('../../db')
 
 const addFeedback = async (req, res) => {

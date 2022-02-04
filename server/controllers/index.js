@@ -1,2 +1,2 @@
-const ctrl = require('./superheros')
+const ctrl = require('./feedbacks')
 module.exports = { ctrl }

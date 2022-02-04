@@ -1,9 +1,7 @@
-// const { Superhero } = require('../../model')
 const db = require('../../db')
 
 const updateById = async (req, res) => {
   const { id, name, email, content } = req.body
-  console.log(id, name, email, content)
   const feedback = await db.query(
     'UPDATE feed_back set name = $1, email = $2, content = $3 where id = $4 RETURNING *',
     [name, email, content, id]
