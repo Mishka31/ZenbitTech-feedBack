@@ -21,7 +21,8 @@ The Back-End use of auxiliary libraries:
     "nodemon": "^2.0.15",
     "pg": "^8.7.1"
 
-In my opinion, backend and frontend in one repository makes the work easier and faster. At the same time, I learned how to use PostgreSQL based on MySQL
+In my opinion, backend and frontend in one repository makes the work easier and faster. At the same time, I learned how to use PostgreSQL based on MySQL.
+
 To start the server, first of all, you need to open the repository in the development environment and use the "npm run dev" command to start the development mode. The backend will start on the host "8081", the terminal will show as in the screenshot below. Next, we can work with the database
 CRUD technology was used to write the database.
 ![](app/public/3.JPG)
