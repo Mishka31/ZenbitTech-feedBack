@@ -11,7 +11,15 @@ The front-end was written in Rect.js with the use of auxiliary libraries:
 The use of "useState" made the task easier, for styling I used a modular connection with a style file.
 
 ### Back-End
-... was bootstrapped with [Heroku](https://id.heroku.com/login) and files in this Repo. folder '[server](https://github.com/Mishka31/zenbit-feedback/tree/main/server)'.
+... was bootstrapped with [Node.js](https://nodejs.org/) and files in this Repo. folder '[server](https://github.com/Mishka31/zenbit-feedback/tree/main/server)'.
+The Back-End use of auxiliary libraries:
+    "cors": "^2.8.5",
+    "cross-env": "7.0.3",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
 
 In my opinion, separating the backend and frontend into different repositories makes it easier and faster to work. At the same time, I refreshed my understanding of deploying and connecting to the Monoi DB database. No additional steps are required to launch the backend repository. The backend was written with Node/js and Express.js
 CRUD technology was used to write the database
