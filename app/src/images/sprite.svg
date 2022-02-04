@@ -1,0 +1,11 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-Pink" viewBox="0 0 32 32">
+<path fill="#f472b7" style="fill: var(--color1, #f472b7)" d="M29.43 30.379c-5.871 5.354-14.849 5.068-20.052-0.638s-4.663-14.672 1.208-20.026c5.871-5.354 14.848-5.068 20.052 0.638s4.663 14.672-1.208 20.026z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M14.029 17.477c0.352 0.386 0.492-0.068 0.889-0.43s0.9-0.494 0.548-0.881-0.959-0.405-1.356-0.043c-0.397 0.361-0.434 0.967-0.082 1.354z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M11.283 19.981c0.352 0.386 0.492-0.068 0.889-0.43s0.9-0.494 0.548-0.881c-0.352-0.386-0.959-0.405-1.356-0.043s-0.434 0.967-0.082 1.354z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M13.601 21.152c0.687 0.753 1.873 0.791 2.648 0.084s0.847-1.891 0.16-2.645c-0.687-0.754-0.581 0.626-1.356 1.333s-2.139 0.474-1.452 1.228z"></path>
+</symbol>
+</defs>
+</svg>
+

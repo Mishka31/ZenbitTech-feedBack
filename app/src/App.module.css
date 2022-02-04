@@ -1,6 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .container {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  justify-content: flex-end;
 }
 .title {
   margin-right: auto;
@@ -15,3 +19,9 @@
   font-size: 40px;
   line-height: 130%;
 }
+.earthContainer {
+  z-index: -1;
+}
+
+/* .earth {
+} */

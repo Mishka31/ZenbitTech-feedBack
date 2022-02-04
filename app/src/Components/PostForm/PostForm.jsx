@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import s from './PostForm.module.css'
-import { add_FeedBack } from '../services/api'
+import { add_FeedBack } from '../../services/api'
 
 const PostForm = () => {
   const [name, setName] = useState('')
@@ -43,6 +43,7 @@ const PostForm = () => {
   return (
     <>
       <form className={s.form} onSubmit={hendkeSubmit}>
+        <h2 className={s.title}>Reach out to us!</h2>
         <input
           className={s.inputName}
           type="text"
@@ -68,7 +69,7 @@ const PostForm = () => {
           value={message}
         />
         <button className={s.button} type="submit">
-          Submit
+          Send message
         </button>
       </form>
     </>

@@ -3,7 +3,10 @@
 }
 
 .form {
-  display: grid;
+  position: absolute;
+  left: 150px;
+  width: 563px;
+  height: 575px;
 }
 
 .inputName,
@@ -43,4 +46,25 @@
   cursor: pointer;
   background: #fad34f;
   border-radius: 500px;
+
+  font-family: Apercu Arabic Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.title {
+  margin-right: auto;
+  margin-left: auto;
+  width: 563px;
+  height: 58px;
+  left: 147px;
+  top: 179px;
+
+  font-family: Apercu Arabic Pro;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 130%;
 }
