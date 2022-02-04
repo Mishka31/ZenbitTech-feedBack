@@ -21,7 +21,8 @@ The Back-End use of auxiliary libraries:
     "nodemon": "^2.0.15",
     "pg": "^8.7.1"
 
-In my opinion, backend and frontend in one repository makes the work easier and faster. At the same time, I learned how to use PostgreSQL based on MusCL
+In my opinion, backend and frontend in one repository makes the work easier and faster. At the same time, I learned how to use PostgreSQL based on MySQL.
+
 To start the server, first of all, you need to open the repository in the development environment and use the "npm run dev" command to start the development mode. The backend will start on the host "8081", the terminal will show as in the screenshot below. Next, we can work with the database
 CRUD technology was used to write the database.
 ![](app/public/3.JPG)
@@ -32,17 +33,12 @@ CRUD technology was used to write the database.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Launch step by step web application:
+### Launch application:
 
-1. Open the project repository in the development environment application and enter the command "npm start" in the Terminal. After a successful launch, you will get the following output:
+Open the project repository in the development environment application and enter the command "npm start" in the Terminal. After a successful launch, you will get the following output:
 
 ![](app/public/1.JPG)
 
 After that, you can use the application
-
-2. The Superheroes application opens in front of you and you can already Create your Heroes without much difficulty.
-Mandatory field is "Nickname" and attached photo. The photo should not exceed 2048 kilobytes:
-<!-- 
-![](public/3.JPG) -->
 
 
