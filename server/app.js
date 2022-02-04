@@ -1,20 +1,20 @@
 const express = require('express')
-const logger = require('morgan')
+// const logger = require('morgan')
 const cors = require('cors')
 
 require('dotenv').config()
 
-// const superherosRouter = require('./routes/api/superheros')
+const feedbacksRouter = require('./routes/api/feedbacks')
 
 const app = express()
 
 const formatsLogger = app.get('env') === 'development' ? 'dev' : 'short'
 
-app.use(logger(formatsLogger))
+// app.use(logger(formatsLogger))
 app.use(cors())
 app.use(express.json())
 
-// app.use('/api/superheros', superhersRouter)
+app.use('/api/feedbacks', feedbacksRouter)
 
 app.use((req, res) => {
   res.status(404).json({ message: 'Not found' })
