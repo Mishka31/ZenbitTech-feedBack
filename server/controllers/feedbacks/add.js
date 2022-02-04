@@ -1,6 +1,7 @@
 const db = require('../../db')
 
 const addFeedback = async (req, res) => {
+  console.log(req.body)
   const { name, email, content } = req.body
   const new_FeedBack = await db.query(
     `INSERT INTO feed_back (name, email, content) values ($1, $2, $3) RETURNING *`,
