@@ -12,7 +12,7 @@ export async function getById_FeedBack(id) {
 }
 
 export async function add_FeedBack(Data) {
-  const { data } = await axios.post(`/feedbacks`, Data)
+  const { data } = await axios.post(`/feedbacks/`, Data)
   return data
 }
 

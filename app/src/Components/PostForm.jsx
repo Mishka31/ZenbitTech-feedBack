@@ -9,9 +9,8 @@ const PostForm = () => {
 
   const hendkeSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
-    add_FeedBack({ data: { name: name, email: email, content: message } })
-
+    const newFeedBack = { name: name, email: email, content: message }
+    add_FeedBack(newFeedBack)
     reset()
   }
 
