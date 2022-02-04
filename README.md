@@ -40,9 +40,4 @@ Open the project repository in the development environment application and enter
 
 After that, you can use the application
 
-2. The Superheroes application opens in front of you and you can already Create your Heroes without much difficulty.
-Mandatory field is "Nickname" and attached photo. The photo should not exceed 2048 kilobytes:
-<!-- 
-![](public/3.JPG) -->
-
 
