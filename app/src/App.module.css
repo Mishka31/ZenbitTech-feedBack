@@ -1,4 +1,10 @@
+.container {
+  display: grid;
+  justify-content: center;
+}
 .title {
+  margin-right: auto;
+  margin-left: auto;
   width: 563px;
   height: 58px;
   left: 147px;

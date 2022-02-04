@@ -10,8 +10,18 @@ const PostForm = () => {
   const hendkeSubmit = (e) => {
     e.preventDefault()
     const newFeedBack = { name: name, email: email, content: message }
-    add_FeedBack(newFeedBack)
-    reset()
+
+    if (name || email || message) {
+      try {
+        add_FeedBack(newFeedBack)
+        alert('✔ Successful sending feedback')
+      } catch (error) {
+        console.error(error.message)
+      }
+      reset()
+      return
+    }
+    alert('❌ All fields must be filled')
   }
 
   const handleChange = (event) => {
