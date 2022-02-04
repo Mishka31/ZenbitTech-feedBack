@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# JavaScript Engineer Test "Superheros"
+ 
+![](public/1.JPG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Front-End 
+... was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
-## Available Scripts
+The front-end was written in Rect.js with the use of auxiliary libraries:
+"axios", "gh-pages", "react-dom", "react-router-dom", "slugify"
+The use of Hooks and States made the task easier, for styling I used a modular connection with a style file.
 
-In the project directory, you can run:
+### Back-End
+... was bootstrapped with [Heroku](https://id.heroku.com/login) and files on gh-repository [Bitbucket-Node](https://github.com/Mishka31/bitbucket-node.git).
+
+In my opinion, separating the backend and frontend into different repositories makes it easier and faster to work. At the same time, I refreshed my understanding of deploying and connecting to the Monoi DB database. No additional steps are required to launch the backend repository. The backend was written with Node/js and Express.js
+CRUD technology was used to write the database
+
+### Available Scripts in Front-End
 
 ### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Launch step by step web application:
 
-### `npm test`
+1. Open the project repository in the development environment application and enter the command "npm start" in the Terminal. After a successful launch, you will get the following output:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](public/2.JPG)
 
-### `npm run build`
+After that, you can use the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. The Superheroes application opens in front of you and you can already Create your Heroes without much difficulty.
+Mandatory field is "Nickname" and attached photo. The photo should not exceed 2048 kilobytes:
+<!-- 
+![](public/3.JPG) -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
