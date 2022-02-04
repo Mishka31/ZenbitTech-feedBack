@@ -1,6 +1,6 @@
 # JavaScript Engineer Test "Superheros"
  
-![](public/1.JPG)
+![](app/public/1.JPG)
 
 ### Front-End 
 ... was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 1. Open the project repository in the development environment application and enter the command "npm start" in the Terminal. After a successful launch, you will get the following output:
 
-![](public/2.JPG)
+![](app/public/2.JPG)
 
 After that, you can use the application
 
