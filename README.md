@@ -32,9 +32,9 @@ CRUD technology was used to write the database.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Launch step by step web application:
+### Launch application:
 
-1. Open the project repository in the development environment application and enter the command "npm start" in the Terminal. After a successful launch, you will get the following output:
+Open the project repository in the development environment application and enter the command "npm start" in the Terminal. After a successful launch, you will get the following output:
 
 ![](app/public/1.JPG)
 
