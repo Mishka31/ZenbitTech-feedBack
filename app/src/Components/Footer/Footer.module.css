@@ -48,6 +48,19 @@
 }
 
 @media screen and (max-width: 767px) {
+  .List {
+    left: 0;
+    top: 15%;
+  }
+  .Group80 {
+    display: none;
+  }
+  .container {
+    transition: 500ms;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+  }
 }
 @media screen and (min-width: 768px) {
   .List {
@@ -65,8 +78,8 @@
     margin-right: 20px;
   }
   .Group80 {
-    width: 80px;
-    margin-top: -3px;
+    width: 60px;
+    margin-top: -26px;
     margin-right: 44px;
   }
   .cartoon5 {

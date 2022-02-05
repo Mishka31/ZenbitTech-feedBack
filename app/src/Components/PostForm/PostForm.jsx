@@ -11,7 +11,7 @@ const PostForm = () => {
     e.preventDefault()
     const newFeedBack = { name: name, email: email, content: message }
 
-    if (name || email || message) {
+    if (name && email && message) {
       try {
         add_FeedBack(newFeedBack)
         alert('✔ Successful sending feedback')
@@ -42,36 +42,38 @@ const PostForm = () => {
   }
   return (
     <>
-      <form className={s.form} onSubmit={hendkeSubmit}>
-        <h2 className={s.title}>Reach out to us!</h2>
-        <input
-          className={s.inputName}
-          type="text"
-          onChange={handleChange}
-          value={name}
-          placeholder="Your name*"
-          name="name"
-        />
-        <input
-          className={s.inputEmail}
-          type="text"
-          onChange={handleChange}
-          placeholder="Your e-mail*"
-          name="email"
-          value={email}
-        />
-        <input
-          className={s.inputMessage}
-          type="text"
-          onChange={handleChange}
-          name="message"
-          placeholder="Your message*"
-          value={message}
-        />
-        <button className={s.button} type="submit">
-          Send message
-        </button>
-      </form>
+      <div className={s.container}>
+        <form className={s.form} onSubmit={hendkeSubmit}>
+          <h2 className={s.title}>Reach out to us!</h2>
+          <input
+            className={s.inputName}
+            type="text"
+            onChange={handleChange}
+            value={name}
+            placeholder="Your name*"
+            name="name"
+          />
+          <input
+            className={s.inputEmail}
+            type="text"
+            onChange={handleChange}
+            placeholder="Your e-mail*"
+            name="email"
+            value={email}
+          />
+          <input
+            className={s.inputMessage}
+            type="text"
+            onChange={handleChange}
+            name="message"
+            placeholder="Your message*"
+            value={message}
+          />
+          <button className={s.button} type="submit">
+            Send message
+          </button>
+        </form>
+      </div>
     </>
   )
 }

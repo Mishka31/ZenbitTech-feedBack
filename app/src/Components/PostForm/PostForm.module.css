@@ -5,7 +5,6 @@
 .form {
   position: absolute;
   top: 15%;
-  left: 15%;
   width: 563px;
   height: 620px;
   z-index: 2;
@@ -16,8 +15,6 @@
 .inputMessage {
   padding-left: 46px;
   width: 557px;
-  left: 150px;
-  top: 267px;
 
   font-family: Apercu Arabic Pro;
   font-weight: normal;
@@ -38,6 +35,19 @@
 .inputMessage {
   height: 189px;
 }
+
+.title {
+  margin-right: auto;
+  margin-left: auto;
+  height: 58px;
+  left: 147px;
+  top: 179px;
+
+  font-family: Apercu Arabic Pro;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 130%;
+}
 .button {
   margin-top: 23px;
   width: 218px;
@@ -57,16 +67,78 @@
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.title {
-  margin-right: auto;
-  margin-left: auto;
-  width: 563px;
-  height: 58px;
-  left: 147px;
-  top: 179px;
-
-  font-family: Apercu Arabic Pro;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 130%;
+@media screen and (max-width: 767px) {
+  .inputName,
+  .inputEmail,
+  .inputMessage {
+    transition: 500ms;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .title {
+    transition: 500ms;
+    /* width: 363px; */
+    height: 58px;
+    font-size: 30px;
+    line-height: 90%;
+  }
+  .form {
+    transition: 500ms;
+    top: 3%;
+    max-width: 300px;
+  }
+  .inputName,
+  .inputEmail {
+    transition: 500ms;
+    height: 43px;
+  }
+  .inputMessage {
+    padding-bottom: 70px;
+    height: 159px;
+  }
+  .button {
+    margin-left: 15%;
+    width: 190px;
+    height: 43px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .form {
+    transition: 500ms;
+    left: 17%;
+  }
+  .inputName,
+  .inputEmail {
+    transition: 500ms;
+    height: 63px;
+  }
+  .inputMessage {
+    padding-bottom: 70px;
+    height: 159px;
+  }
+  .button {
+    width: 190px;
+    height: 53px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .form {
+    transition: 500ms;
+    left: 15%;
+  }
+  .inputName,
+  .inputEmail {
+    transition: 500ms;
+    height: 93px;
+  }
+  .inputMessage {
+    height: 189px;
+  }
+  .button {
+    width: 218px;
+    height: 73px;
+  }
 }
