@@ -5,7 +5,6 @@ body {
 .container {
   display: flex;
   justify-content: flex-end;
-  /* filter: blur(2px); */
 }
 .title {
   margin-right: auto;
@@ -61,3 +60,49 @@ body {
 }
 /* .earth {
 } */
+@media screen and (max-width: 767px) {
+}
+@media screen and (min-width: 768px) {
+  .container {
+    transition: 500ms;
+    filter: blur(2px);
+  }
+  .earthContainer {
+    z-index: -1;
+  }
+
+  .Pink {
+    transition: 500ms;
+    position: absolute;
+    left: 46%;
+    bottom: 0%;
+    opacity: 0.8;
+  }
+  .goodie1 {
+    transition: 500ms;
+    position: absolute;
+    left: 60%;
+    bottom: 20%;
+    opacity: 0.8;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    filter: blur(0px);
+  }
+  .Pink {
+    height: 300px;
+    position: relative;
+    left: 20%;
+    bottom: 7%;
+    opacity: 1;
+  }
+  .goodie1 {
+    height: 130px;
+    position: relative;
+    left: 38%;
+    bottom: 30%;
+    z-index: 1;
+    opacity: 1;
+  }
+}
