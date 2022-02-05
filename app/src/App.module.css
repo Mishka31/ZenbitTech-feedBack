@@ -22,6 +22,41 @@ body {
 .earthContainer {
   z-index: -1;
 }
-
+.Pink {
+  height: 300px;
+  position: relative;
+  left: 20%;
+  bottom: 7%;
+}
+.goodie1 {
+  height: 130px;
+  position: relative;
+  left: 38%;
+  bottom: 30%;
+  z-index: 1;
+}
+.Ellipse31 {
+  height: 87px;
+  position: absolute;
+  top: 2%;
+  left: 44%;
+  z-index: -1;
+}
+.cartoon5 {
+  height: 120px;
+  width: 157px;
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+.Cloud {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 5%;
+  /* left: 0%; */
+  z-index: -1;
+  opacity: 0.8;
+}
 /* .earth {
 } */

@@ -1,8 +1,4 @@
 .container {
-  /* position: absolute;
-  left: 0;
-  bottom: 0;
-  margin: 0; */
   display: flex;
   width: 100%;
   height: 200px;
@@ -10,30 +6,40 @@
 }
 .List {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
-  width: 126.76px;
+  width: 136px;
   height: 16.09px;
   position: relative;
   left: -20%;
-  top: 5%;
-  background: coral;
+  top: 32%;
 }
 .itemOfList {
   list-style: none;
+  width: 30px;
 }
-/* .socialLink {
-} */
-/* .containerSvg {
-  display: block;
-  margin: 0px;
-  padding: 0px;
-  height: 208px;
-} */
+
 .Pink {
-  /* width: 350px; */
   height: 228px;
   margin-top: -28px;
+}
+.socialNetworkSvg {
+  fill: #696969;
+  align-content: center;
+  width: 18px;
+  height: 18px;
+}
+.socialNetworkSvg:hover,
+.socialNetworkSvg:focus {
+  transition: 250ms;
+  margin-top: -3px;
+  margin-left: -3px;
+
+  fill: #fad34f;
+  width: 25px;
+  height: 25px;
+  box-shadow: 0px 4px 12px #a0682c;
+  border-radius: 5px;
 }

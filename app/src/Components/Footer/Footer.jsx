@@ -4,30 +4,36 @@ import sprite from '../../images/sprite.svg'
 const Footer = () => {
   return (
     <div className={s.container}>
-      {/* <div className={s.containerSvg}> */}
       <svg className={s.Pink}>
         <use href={sprite + '#icon-Pink'}></use>
       </svg>
-      {/* </div> */}
       <ul className={s.List}>
         <li className={s.itemOfList}>
           <a className={s.socialLink} href="https://www.linkedin.com/">
-            in
+            <svg className={s.socialNetworkSvg}>
+              <use href={sprite + '#icon-linkedin'}></use>
+            </svg>
           </a>
         </li>
         <li className={s.itemOfList}>
           <a className={s.socialLink} href="https://twitter.com/">
-            tw
+            <svg className={s.socialNetworkSvg}>
+              <use href={sprite + '#icon-facebook'}></use>
+            </svg>
           </a>
         </li>
         <li className={s.itemOfList}>
           <a className={s.socialLink} href="https://www.facebook.com/">
-            fb
+            <svg className={s.socialNetworkSvg}>
+              <use href={sprite + '#icon-twitter'}></use>
+            </svg>
           </a>
         </li>
         <li className={s.itemOfList}>
           <a className={s.socialLink} href="https://www.pinterest.com/">
-            pe
+            <svg className={s.socialNetworkSvg}>
+              <use href={sprite + '#icon-pinterest'}></use>
+            </svg>
           </a>
         </li>
       </ul>

@@ -4,7 +4,8 @@
 
 .form {
   position: absolute;
-  left: 150px;
+  top: 15%;
+  left: 15%;
   width: 563px;
   height: 575px;
 }
