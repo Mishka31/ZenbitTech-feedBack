@@ -24,10 +24,10 @@
   width: 30px;
 }
 
-.Pink {
+/* .Pink {
   height: 228px;
   margin-top: -28px;
-}
+} */
 .socialNetworkSvg {
   fill: #696969;
   align-content: center;
@@ -46,13 +46,50 @@
   box-shadow: 0px 4px 12px #a0682c;
   border-radius: 5px;
 }
-.cartoon5 {
-  width: 87px;
-  margin-top: 15px;
-  /* height: 87px; */
+
+@media screen and (max-width: 767px) {
 }
-.Group80 {
-  width: 80px;
-  margin-top: -102px;
-  margin-right: 44px;
+@media screen and (min-width: 768px) {
+  .List {
+    transition: 500ms;
+    top: 23%;
+  }
+  .container {
+    transition: 500ms;
+    height: 100px;
+  }
+  .Pink {
+    transition: 500ms;
+    height: 110px;
+    margin-top: -11px;
+    margin-right: 20px;
+  }
+  .Group80 {
+    width: 80px;
+    margin-top: -3px;
+    margin-right: 44px;
+  }
+  .cartoon5 {
+    width: 67px;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    transition: 500ms;
+    height: 200px;
+  }
+  .Pink {
+    height: 228px;
+    margin-top: -28px;
+  }
+  .Group80 {
+    width: 80px;
+    margin-top: -102px;
+    margin-right: 44px;
+  }
+  .cartoon5 {
+    width: 87px;
+    margin-top: 15px;
+  }
 }
