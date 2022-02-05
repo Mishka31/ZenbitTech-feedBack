@@ -5,6 +5,7 @@ body {
 .container {
   display: flex;
   justify-content: flex-end;
+  /* filter: blur(2px); */
 }
 .title {
   margin-right: auto;

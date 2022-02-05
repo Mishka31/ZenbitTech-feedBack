@@ -7,12 +7,12 @@ import sprite from './images/sprite.svg'
 export default function App() {
   return (
     <>
+      <PostForm />
       <div className={s.container}>
         <svg className={s.Cloud}>
           <use href={sprite + '#icon-Cloud'}></use>
         </svg>
 
-        <PostForm />
         <svg className={s.cartoon5}>
           <use href={sprite + '#icon-red_cartoon-5'}></use>
         </svg>

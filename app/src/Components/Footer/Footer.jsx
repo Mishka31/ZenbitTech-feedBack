@@ -37,6 +37,12 @@ const Footer = () => {
           </a>
         </li>
       </ul>
+      <svg className={s.Group80}>
+        <use href={sprite + '#icon-Group-80'}></use>
+      </svg>
+      <svg className={s.cartoon5}>
+        <use href={sprite + '#icon-red_cartoon-5'}></use>
+      </svg>
     </div>
   )
 }
